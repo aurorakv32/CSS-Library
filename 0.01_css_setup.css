@@ -1,0 +1,12 @@
+/*This CSS file is for the html doc 0.01_setup_html*/
+
+/*Ctrl + D wil change multiple lines at once!!*/
+
+body {
+	background: rgb(171, 175, 196);
+}
+
+img {
+	width: 400px;
+	height: 300px;	
+}
