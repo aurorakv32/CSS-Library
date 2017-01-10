@@ -1,0 +1,19 @@
+/*Change first-class color*/
+.first-class {
+	color: green;
+}
+
+/*change second-class font*/
+.second-class {
+	font-size: 16px;
+}
+
+/*change number-one id color*/
+#number-one {
+	color: red;
+}
+
+/*change number-two font size*/
+#number-two {
+	font-size: 24px;
+}

@@ -1,5 +1,5 @@
 /*this sets the whole background this color*/
-html {
+body {
 	background-color: #FAEBD7;
 }
 
@@ -8,11 +8,13 @@ html {
 	background-color: red;
 }
 
+/*this changes the color of all p tags*/
 .css-classes p {
 	font-size: 16px;
 	color: green;
 }
 
+/*this changes the color of all the list items*/
 .css-classes li {
 	color: navy;
 }
