@@ -1,0 +1,59 @@
+/* Margins are outside of any border, visible or invisible.  
+Padding is inside the border(vis/invis) and "around the text"
+*/
+
+.margins-padding{
+  border:2px dotted blue;
+  margin: 50px 50px 530px 50px;
+  padding: 20px 200px 20px 200px;
+}
+#margin-demo {
+	width: 400px;
+
+}
+
+#margin-experiment{
+  height: 40px;
+  background: grey;
+	border: 5px dashed orange;
+
+/* This sets the margin all the way around the border.
+	margin-top: 50px;
+	margin-right: 250px;
+	margin-bottom: 200px;
+	margin-left: 200px;
+
+/*This sets a 0 margin around all the text.*/
+	margin: 0px 0px 0px 0px;
+}
+
+#margin-experiment2{
+  height: 40px;
+  background: blue;
+	border: 15px ridge yellow;
+/*	margin-top: 50px;
+	margin-right: 250px;
+	margin-bottom: 200px;
+	margin-left: 200px;
+*/
+	margin: 5px 10px 20px 0px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+
+#padding-experiment{
+	border: 2px outset black;
+	/*The padding allows the white space around the text,
+	but inside the border to change.*/
+	margin: 50px 250px 1px 100px;
+
+/*  This code is harder to write
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+*/
+/*This code is easier, but you have to remember the order*/
+	padding: 20px 20px 20px 20px;
+}
